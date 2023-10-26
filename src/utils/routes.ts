@@ -1,20 +1,19 @@
-import Home from "../pages/Home/Home";
-import Product from "../pages/Product/Product";
+import { FC, lazy } from "react";
+
+const Home = lazy<FC>(() => import("../pages/Home/Home"));
+const Product = lazy<FC>(() => import("../pages/Product/Product"));
 
 export const ROUTES = [
   {
     path: "/",
-    index: true,
-    element: Home,
+    component: Home,
   },
   {
     path: "/product",
-    index: false,
-    element: Product,
+    component: Product,
   },
   {
     path: "/product/edit",
-    index: false,
-    element: Product,
+    component: Product,
   },
 ];
