@@ -10,7 +10,7 @@
 Hi Innoloft Team 👋,
 Welcome to Innoloft FE Challenge Readme 🚀
 
-#### 🔗 Live Link &rarr; [Innoloft Challenge]()
+#### 🔗 Live Link &rarr; [Innoloft Challenge](https://innoloft-fe-challenge.vercel.app/)
 
 ### 👨‍💻 Installation and Setup Instructions
 
@@ -36,7 +36,7 @@ VITE_REACT_APP_MAIN_COLOR=#272e71
 VITE_REACT_APP_HAS_USER_SECTION=true
 ```
 
-Run the development server 
+Run the development server
 
 `npm run dev`
 
