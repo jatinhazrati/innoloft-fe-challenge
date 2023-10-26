@@ -1,6 +1,6 @@
 import { PayloadAction, createSlice } from "@reduxjs/toolkit";
+import { IAppConfiguraiton } from "../../utils/types";
 import { CONFIGURATION_INTIIAL_STATE } from "./initialState";
-import { IAppConfiguraiton } from "./types";
 
 export const configurationSlice = createSlice({
   name: "product",

@@ -1,4 +1,4 @@
-import { IConfigurationInitialState } from "./types";
+import { IConfigurationInitialState } from "../../utils/types";
 
 export const CONFIGURATION_INTIIAL_STATE: IConfigurationInitialState = {
   appConfiguration: {
