@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import user_avatar from "../../assets/user_avatar.svg";
 import { useAppSelector } from "../../redux/hooks";
 
-export default function NavBar() {
+const NavBar = () => {
   const { appConfiguration } = useAppSelector((state) => state.configuration);
   const mainColor =
     appConfiguration.mainColor || import.meta.env.VITE_REACT_APP_MAIN_COLOR;
@@ -53,4 +53,6 @@ export default function NavBar() {
       </div>
     </nav>
   );
-}
+};
+
+export default NavBar;
