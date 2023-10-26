@@ -6,14 +6,17 @@ const Product = lazy<FC>(() => import("../pages/Product/Product"));
 export const ROUTES = [
   {
     path: "/",
-    component: Home,
+    index: true,
+    element: Home,
   },
   {
     path: "/product",
-    component: Product,
+    index: false,
+    element: Product,
   },
   {
     path: "/product/edit",
-    component: Product,
+    index: false,
+    element: Product,
   },
 ];
