@@ -1,5 +1,5 @@
 import { ContentState, EditorState } from "draft-js";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Editor } from "react-draft-wysiwyg";
 import "react-draft-wysiwyg/dist/react-draft-wysiwyg.css";
 import { BsClockHistory } from "react-icons/bs";
@@ -21,7 +21,7 @@ import {
 } from "../../utils/constants";
 import { IEntry } from "../../utils/types";
 
-const Product: React.FC = () => {
+const Product = () => {
   const dispatch = useAppDispatch();
   const location = useLocation();
   const navigate = useNavigate();
@@ -222,7 +222,6 @@ const Product: React.FC = () => {
         <div className="border border-gray-300 bg-white p-4 rounded-[8px]">
           <h4 className="font-bold text-xl">Offer Details</h4>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 mt-4">
-        
             <div className="flex items-center">
               <div className="p-2">
                 <IoSettingsOutline size={24} color="gray" />
@@ -296,7 +295,7 @@ const Product: React.FC = () => {
                 )}
               </div>
             </div>
-     
+
             <div className="flex items-center">
               <div className="p-2">
                 <BsClockHistory size={24} color="gray" />
@@ -316,7 +315,7 @@ const Product: React.FC = () => {
                 )}
               </div>
             </div>
-          
+
             <div className="flex items-center">
               <div className="p-2">
                 <FaSackDollar size={24} color="gray" />

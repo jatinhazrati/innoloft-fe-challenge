@@ -1,7 +1,5 @@
-import { FC, lazy } from "react";
-
-const Home = lazy<FC>(() => import("../pages/Home/Home"));
-const Product = lazy<FC>(() => import("../pages/Product/Product"));
+import Home from "../pages/Home/Home";
+import Product from "../pages/Product/Product";
 
 export const ROUTES = [
   {
